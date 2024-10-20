@@ -60,7 +60,6 @@ def start_game():
         print('Игра окончена, ничья!')
     else:
         print('Выиграл ' + check_win() )
-
 print('Приветствуем вас в крестиках ноликах!')
 start_game()
 
