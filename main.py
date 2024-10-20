@@ -39,10 +39,8 @@ def start_game():
 
     while (step < 10) and (check_win() == False):
         index = input('Ходит игрок '+ current_player + '. Введите номер поля (0 - выход): ')
-
         if index=='0':
             break
-
         if game_step(int(index), current_player):
             print('Ход записался')
 
